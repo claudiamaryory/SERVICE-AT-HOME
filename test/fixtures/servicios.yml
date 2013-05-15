@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  fecha: 2013-05-14
+  hora: 2013-05-14 21:42:38
+  calificacion_servicio: 
+  solicitud_servicio: 
+  cliente: 
+  reprogramacion: 
+
+two:
+  fecha: 2013-05-14
+  hora: 2013-05-14 21:42:38
+  calificacion_servicio: 
+  solicitud_servicio: 
+  cliente: 
+  reprogramacion: 

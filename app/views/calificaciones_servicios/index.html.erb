@@ -1,0 +1,25 @@
+<h1>Listing calificaciones_servicios</h1>
+
+<table>
+  <tr>
+    <th>Cliente</th>
+    <th>Observacion</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @calificaciones_servicios.each do |calificacion_servicio| %>
+  <tr>
+    <td><%= calificacion_servicio.cliente %></td>
+    <td><%= calificacion_servicio.observacion %></td>
+    <td><%= link_to 'Show', calificacion_servicio %></td>
+    <td><%= link_to 'Edit', edit_calificacion_servicio_path(calificacion_servicio) %></td>
+    <td><%= link_to 'Destroy', calificacion_servicio, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Calificacion servicio', new_calificacion_servicio_path %>

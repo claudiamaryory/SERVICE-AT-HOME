@@ -1,0 +1,8 @@
+<%= simple_form_for @solicitud_servicio, :html => { :class => 'form-horizontal' } do |f| %>
+  <%= f.input :cliente_id %>
+  <div class="form-actions">
+    <%= f.button :submit, :class => 'btn-primary' %>
+    <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                solicitudes_servicios_path, :class => 'btn' %>
+  </div>
+<% end %>

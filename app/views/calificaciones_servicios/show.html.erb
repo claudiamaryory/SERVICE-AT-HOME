@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Cliente:</b>
+  <%= @calificacion_servicio.cliente %>
+</p>
+
+<p>
+  <b>Observacion:</b>
+  <%= @calificacion_servicio.observacion %>
+</p>
+
+
+<%= link_to 'Edit', edit_calificacion_servicio_path(@calificacion_servicio) %> |
+<%= link_to 'Back', calificaciones_servicios_path %>

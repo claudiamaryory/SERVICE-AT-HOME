@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  empleado: 
+  servicio: 
+  observacion: MyString
+
+two:
+  empleado: 
+  servicio: 
+  observacion: MyString

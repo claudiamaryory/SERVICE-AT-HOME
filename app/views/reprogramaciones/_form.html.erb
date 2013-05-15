@@ -1,0 +1,10 @@
+<%= simple_form_for @reprogramacion, :html => { :class => 'form-horizontal' } do |f| %>
+  <%= f.input :hora %>
+  <%= f.input :fecha %>
+  <%= f.input :solicitud_servicio_id %>
+  <div class="form-actions">
+    <%= f.button :submit, :class => 'btn-primary' %>
+    <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                reprogramaciones_path, :class => 'btn' %>
+  </div>
+<% end %>
